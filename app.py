@@ -19,6 +19,7 @@ def user(name):
     else:
         return redirect(url_for('guest', guest=name))
         
+        
 
 if __name__ == '__main__':
     app.run(debug=True)
